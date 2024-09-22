@@ -166,6 +166,18 @@ body{
     margin-top: 20px;   
 }
 
+.sobremim__apresentacao__conteudo__texto__tabela{
+    font-size: 1.2rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400; 
+    margin-top: 20px;   
+    padding: 30px;
+    border: solid 1px var(--cor-terciaria);
+    border-radius: 8px;
+   
+    
+}
+
 .caixa__de__fotos{
     display: flex;
     flex-direction: column;
