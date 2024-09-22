@@ -1,19 +1,30 @@
+* { /* Este linha faz a configurações geral em todo o código, nela acabamos de definir que todos os conteúdos terão margin e paddins 0, removendo todo os espaçãmento para melhor configuração - OBS - PADRÃO*/
+    margin: 0; 
+    padding: 0;
+}
+
 body{
+    height: 100vh; /* Usado para definir que nosso conteudo ocuparam 100% da página - PADRÃO*/
+    box-sizing: border-box; /* Faz com que todo contéudo permaneça dentro do body que é a tag pai, de modo que não ultrapasse para as laterias - PADRÃO*/
     background-color: black;
     color: #F6F6F6;  
 }
-span{
-    color:#22D4FD;
-}
 
+/*Classe criada na tag principal onde nosso conteúdo está para iniarmos o posionamento dos blocos usando o FLEX BOX*/ 
+
+.apresentacao{ 
+    display: flex;
+    align-items: center;
+    
+}
+ .destaque-azul-titulo{
+    color: #22D4FD;
+ }
+  
 img{
     height: 400px;
     width: 300px;
     border-radius: 15px   
 }
-a{
-    background-color: #22D4FD;
-    border: solid #22D4;
-    padding: 10px;
-    border-radius: 10px;
-}
+
+
